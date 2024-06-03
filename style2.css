@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Main Content, Footer */
+    grid-template-columns: auto 1fr; /* Nav, Main Content */
+    min-height: 100vh; /* Ensure the page takes at least the viewport height */
+}
+
+ header {
+    grid-row: 1;
+    grid-column: 1 / -1; /*Spanning across all columns */
+    background-color: pink;
+    color: #fff;
+    padding: 20px;}
+
+
+nav {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: #cf3f89;
+    color: #fff;
+    padding: 20px;}
+
+
+main {
+    grid-row: 2;
+    grid-column: 2;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+
+
+footer {
+    grid-row: 3;
+    grid-column: 1 / -1; /* Spanning across all columns */
+    background-color: palevioletred;
+    color: #fff;
+    padding: 20px;
+}
+ 
+/* Styling the nav bar */
+       /* .navbar {
+            overflow: hidden;
+            background-color: #e266d2;
+        }
+
+        Styling the links found  inside the navigation bar 
+        .navbar a {
+            float: left;
+            display:list-item;
+            color: rgb(239, 14, 194);
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: blueviolet;
+        }
+
+         Changes the color of links on hover 
+        .navbar a:hover {
+            background-color:pink;
+            color: rgb(251, 216, 222);
+        }
+       */

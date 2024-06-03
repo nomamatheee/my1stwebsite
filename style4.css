@@ -1,0 +1,21 @@
+.containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .animated-text {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    animation: color-change 5s linear infinite alternate;
+  }
+  
+  @keyframes color-change {
+     from { color:deeppink;}
+     to {color: purple;}
+
+
+    }
+  
+  

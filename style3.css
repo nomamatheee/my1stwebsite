@@ -1,0 +1,28 @@
+
+        
+        .image-with-text {
+            display: flex; 
+            align-items: center;
+        }
+
+        Style the image 
+        .image-with-text img {
+        
+            margin-right: 20px; 
+            height: 400px;
+            width: 400px;
+        }
+
+        Style the text 
+        .image-with-text p {
+            font-size: 16px;
+        } */
+
+
+        .container {
+            display: flex;
+            align-items: center;
+          }
+          .video {
+            margin-right: 20px; 
+          }

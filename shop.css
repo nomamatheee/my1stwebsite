@@ -1,0 +1,39 @@
+section{
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    object-fit:none;
+}
+    
+
+    .cell{
+        background-color: pink;
+        object-fit: cover;
+        margin: auto;
+        padding:10px;
+        
+    }
+    
+   
+    header {
+        grid-row: 1;
+        grid-column: 1 / -1; /* Spanning across all columns */
+        background-color: pink;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    nav {
+        grid-row: 2;
+        grid-column: 1;
+        background-color: #cf3f89;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    
+    footer {
+        grid-row: 3;
+        grid-column: 1 / -1; /* Spanning across all columns */
+        background-color: palevioletred;
+        color: #fff;
+        padding: 20px;}

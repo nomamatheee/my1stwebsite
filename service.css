@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+}
+
+
+table{
+    grid-row: 1 / span 2; 
+}
+img{
+    padding: 25px;
+}
+h1{
+    color: palevioletred;
+    font-size: 64px;
+}
+.cut{
+    background: linear-gradient(purple,pink,palevioletred);
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.care{
+    background: linear-gradient(pink,magenta,deeppink);
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+  
+}
+
+.braid{
+    background: linear-gradient(pink,magenta,deeppink);
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+  
+}
+
+.nails{
+    background: linear-gradient(pink,magenta,deeppink);
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+  
+}
+
+.lashes{
+    background: linear-gradient(pink,magenta,deeppink);
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+}
+header {
+    grid-row: 1;
+    grid-column: 1 / -1; /* Spanning across all columns */
+    background-color: pink;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: #cf3f89;
+    color: #fff;
+    padding: 20px;
+}
+
+
+footer {
+    grid-row: 3;
+    grid-column: 1 / -1; /* Spanning across all columns */
+    background-color: palevioletred;
+    color: #fff;
+    padding: 20px;}
